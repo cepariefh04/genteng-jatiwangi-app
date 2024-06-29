@@ -14,7 +14,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #37373f; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #f30310; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #f95808; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: #ffffff;
 }
 body {
@@ -23,12 +23,12 @@ body {
 }
 
 a {
-  color: #f30310;
+  color: #f95808;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fa555e;
+  color: #ff9661;
   text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #f30310;
+  background: #f95808;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -65,7 +65,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #fa555e;
+  background: #ff9661;
   color: #fff;
 }
 
@@ -125,7 +125,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #f30310;
+  color: #f95808;
 }
 
 @media (max-width: 768px) {
@@ -181,7 +181,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #f30310;
+  color: #f95808;
 }
 
 .navbar .dropdown ul {
@@ -217,7 +217,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #f30310;
+  color: #f95808;
 }
 
 .navbar .dropdown:hover>ul {
@@ -316,7 +316,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #f30310;
+  color: #f95808;
 }
 
 .navbar-mobile .getstarted,
@@ -351,7 +351,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #f30310;
+  color: #f95808;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -394,7 +394,7 @@ h6 {
 }
 
 #hero h1 span {
-  border-bottom: 4px solid #f30310;
+  border-bottom: 4px solid #f95808;
 }
 
 #hero h2 {
@@ -413,12 +413,12 @@ h6 {
   border-radius: 4px;
   transition: ease-in-out 0.3s;
   color: #fff;
-  background: #f30310;
+  background: #f95808;
   text-transform: uppercase;
 }
 
 #hero .btn-get-started:hover {
-  background: #fa555e;
+  background: #ff9661;
 }
 
 @media (max-width: 992px) {
@@ -481,7 +481,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #f30310;
+  background: #f95808;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -514,7 +514,7 @@ section {
 }
 
 .what-we-do .icon-box .icon i {
-  color: #f30310;
+  color: #f95808;
   font-size: 28px;
 }
 
@@ -542,7 +542,7 @@ section {
 
 .what-we-do .icon-box:hover h4 a,
 .what-we-do .icon-box:hover .icon i {
-  color: #f30310;
+  color: #f95808;
 }
 
 /*--------------------------------------------------------------
@@ -574,7 +574,7 @@ section {
   left: 0;
   top: 0;
   font-size: 22px;
-  color: #f30310;
+  color: #f95808;
 }
 
 .about .icon-boxes {
@@ -589,7 +589,7 @@ section {
 
 .about .icon-boxes i {
   font-size: 48px;
-  color: #f30310;
+  color: #f95808;
 }
 
 .about .icon-boxes p {
@@ -655,7 +655,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #f30310;
+  background: #f95808;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -692,7 +692,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #f30310;
+  color: #f95808;
   font-size: 40px;
   line-height: 0;
 }
@@ -720,7 +720,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #f30310;
+  color: #f95808;
 }
 
 /*--------------------------------------------------------------
@@ -754,7 +754,7 @@ section {
 
 .produk #produk-flters li:hover,
 .produk #produk-flters li.filter-active {
-  background: #f30310;
+  background: #f95808;
   color: #fff;
 }
 
@@ -817,7 +817,7 @@ section {
 
 .produk .produk-item figure .link-preview:hover,
 .produk .produk-item figure .link-details:hover {
-  background: #f30310;
+  background: #f95808;
 }
 
 .produk .produk-item figure .link-preview:hover i,
@@ -866,16 +866,15 @@ section {
 }
 
 .produk .produk-item .produk-info h4 a:hover {
-  color: #f30310;
+  color: #f95808;
 }
 
 .produk .produk-item .produk-info p {
   padding: 0;
   margin: 0;
-  color: #b8b8b8;
+  color: #878787;
   font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -899,11 +898,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #f30310;
+  border: 1px solid #f95808;
 }
 
 .produk-details .produk-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #f30310;
+  background-color: #f95808;
 }
 
 .produk-details .produk-info {
@@ -966,7 +965,7 @@ section {
 }
 
 .produk-details .produk-thumbnails figure .link-preview:hover {
-  background: #f30310;
+  background: #f95808;
 }
 
 .produk-details .produk-thumbnails figure .link-preview:hover i {
@@ -1064,11 +1063,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #f30310;
+  border: 1px solid #f95808;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #f30310;
+  background-color: #f95808;
 }
 
 /*--------------------------------------------------------------
@@ -1117,7 +1116,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #f30310;
+  color: #f95808;
 }
 
 .team .member .social i {
@@ -1136,7 +1135,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #f30310;
+  color: #f95808;
   float: left;
   width: 44px;
   height: 44px;
@@ -1164,7 +1163,7 @@ section {
 }
 
 .contact .info:hover i {
-  background: #f30310;
+  background: #f95808;
   color: #fff;
 }
 
@@ -1244,7 +1243,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #f30310;
+  background: #f95808;
   border: 0;
   padding: 10px 24px;
   color: #fff;
